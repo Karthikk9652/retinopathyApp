@@ -39,4 +39,4 @@ if uploaded_file is not None:
     if st.button("Classify"):
         st.write("Classifying...")
         predicted_class = predict(image)
-        st.write("Predicted Class:", predicted_class)
+        st.write("Predicted Class:", map[predicted_class])
